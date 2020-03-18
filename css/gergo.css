@@ -1,0 +1,51 @@
+
+main{
+    width: 768px;
+    height: 1195px;
+    position: relative;
+    background: -moz-linear-gradient(-95deg,  #0A101A 0%, #394354 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#0A101A),  color-stop(100%,#394354));
+    text-align: center;
+}
+.logo{
+    width: 157px;
+    margin-top: 20px;
+}
+span{
+    color: #DF616F;
+}
+h1{
+    font-family: 'Source Sans Pro';
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.backbutton{
+    position: fixed;
+    top: 25px;
+    left: 2%;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    
+}
+.number{
+    margin-left: 10%;
+    margin-right: 5%;
+    align-self: center;
+}
+p{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: white;
+    margin-right: 50px;
+}
+p2{
+    font-family: 'Source Sans Pro';
+    font-size: 25px;
+    color: white;
+    padding: 50px;
+}
